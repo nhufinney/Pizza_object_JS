@@ -37,6 +37,6 @@ $(document).ready(function() {
      customer.cost(input_type);
      customer.price();
 
-     $(".show_cost").text(customer.pizza_price);
+     $(".show_cost").text("Your price: $"+customer.pizza_price);
  });
 });
