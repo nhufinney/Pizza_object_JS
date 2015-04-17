@@ -28,15 +28,15 @@ var customer = Object.create(Pizza);
 //JS code to run the page
 $(document).ready(function() {
  $("form#pizza").submit(function(event) {
-     event.preventDefault();
+    event.preventDefault();
 
-     var input_size = parseInt($("select#size").val());
-     var input_type = parseInt($("select#type").val());
+    var input_size = parseInt($("select#size").val());
+    var input_type = parseInt($("select#type").val());
 
-     customer.size(input_size);
-     customer.cost(input_type);
-     customer.price();
+    customer.size(input_size);
+    customer.cost(input_type);
+    customer.price();
 
-     $(".show_cost").text("Your price: $"+customer.pizza_price);
+    $(".show_cost").text("Your price: $"+customer.pizza_price);
  });
 });
