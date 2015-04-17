@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <title>Epicodus Pizza</title>
+</head>
+<body>
+
+  <div class='container' class="form-inline">
+    <div class="jumbotron">
+      <h1>Epicodus Pizza Chain</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6" class="form-control">
+
+        <form id="pizza">
+          <p>Choose the size of your yummy pizza!</p>
+          <select id ="size">
+            <option value="1">Small</option>
+            <option value="2">Medium</option>
+            <option value="3">Large</option>
+          </select>
+          <br><br>
+          <p>Choose our famous flavor!</p>
+          <select id ="type">
+            <option value="1">Cheese</option>
+            <option value="2">Pepperoni</option>
+          </select>
+          <br><br>
+          <button type= "submit" class="btn btn-primary" >Get the price!</button>
+        </form>
+
+        <div id="show_cost">
+          <span class="show_cost"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
