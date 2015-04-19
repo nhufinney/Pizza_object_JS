@@ -1,29 +1,3 @@
-h1 {
-  font-weight: lighter;
-}
-
-td {
-  border: solid 1px #000;
-}
-
-.red {
-  color: red;
-}
-
-#card-table {
-  font-size: 600%;
-  text-align: center;
-  margin: auto;
-}
-
-#hit2{
-    display:none
-}
-
-#hit3{
-    display:none
-}
-
-#hit4{
-    display:none
+.show_cost{
+    background-color: #FFFFE6;
 }
